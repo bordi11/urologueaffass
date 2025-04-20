@@ -1,0 +1,164 @@
+{
+  "name": "kit",
+  "title": "kit",
+  "description": "",
+  "author": "Mati",
+  "version": "2.0",
+  "elementor_version": "3.27.3",
+  "created": "2025-04-16 19:03:50",
+  "thumbnail": false,
+  "site": "https://website-planner-02.elementor.cloud",
+  "site-settings": [
+    "global-colors",
+    "global-typography",
+    "theme-style-typography",
+    "theme-style-buttons",
+    "theme-style-images",
+    "theme-style-form-fields",
+    "settings-background",
+    "settings-layout",
+    "settings-lightbox",
+    "settings-page-transitions",
+    "settings-custom-css",
+    "settings-woocommerce"
+  ],
+  "plugins": [
+    {
+      "name": "Elementor",
+      "plugin": "elementor/elementor.php",
+      "pluginUri": "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+      "version": "3.27.3"
+    },
+    {
+      "name": "Elementor Pro",
+      "plugin": "elementor-pro/elementor-pro.php",
+      "pluginUri": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/",
+      "version": "3.25.5"
+    }
+  ],
+  "templates": {
+    "52529": {
+      "title": "Footer",
+      "doc_type": "footer",
+      "thumbnail": false,
+      "location": "footer",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "general",
+          "sub_name": "",
+          "sub_id": ""
+        }
+      ]
+    },
+    "52531": {
+      "title": "Header",
+      "doc_type": "header",
+      "thumbnail": false,
+      "location": "header",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "general",
+          "sub_name": "",
+          "sub_id": ""
+        }
+      ]
+    },
+    "52535": {
+      "title": "Single Post",
+      "doc_type": "single-post",
+      "thumbnail": false,
+      "location": "single",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "singular",
+          "sub_name": "post",
+          "sub_id": ""
+        }
+      ]
+    },
+    "52536": {
+      "title": "404",
+      "doc_type": "error-404",
+      "thumbnail": false,
+      "location": "single",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "singular",
+          "sub_name": "not_found404",
+          "sub_id": ""
+        }
+      ]
+    }
+  },
+  "taxonomies": {
+    "post": [
+      "category"
+    ],
+    "nav_menu_item": [
+      "nav_menu"
+    ],
+    "product": [
+      "product_type",
+      "product_visibility",
+      "product_cat"
+    ]
+  },
+  "content": {
+    "post": [],
+    "page": {
+      "52532": {
+        "title": "Contact",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://website-planner-02.elementor.cloud/contact/",
+        "terms": []
+      },
+      "52533": {
+        "title": "Services",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://website-planner-02.elementor.cloud/services/",
+        "terms": []
+      },
+      "52537": {
+        "title": "Accueil",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://website-planner-02.elementor.cloud/",
+        "terms": [],
+        "show_on_front": true
+      }
+    },
+    "e-floating-buttons": []
+  },
+  "wp-content": {
+    "post": [
+      "52530",
+      "52534",
+      "52538"
+    ],
+    "page": [],
+    "nav_menu_item": [
+      "52547",
+      "52548",
+      "52549",
+      "52553",
+      "52554",
+      "52555"
+    ],
+    "product": []
+  },
+  "custom-post-type-title": {
+    "product": {
+      "name": "product",
+      "label": "Products"
+    }
+  }
+}
